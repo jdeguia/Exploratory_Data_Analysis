@@ -49,7 +49,7 @@ When you are finished with the assignment, push your git repository to
 GitHub so that the GitHub version of your repository is up to
 date. There should be four PNG files and four R code files.
 
-##Plot 1
+## Plot 1
 ```R
 # Reads in data from file then subsets data for specified dates
 householdpower <- read.table("household_power_consumption.txt",skip=1,sep=";")
@@ -66,9 +66,9 @@ title(main="Global Active Power")
 dev.copy(png, file = "plot1.png",width=480, height=480)  
 dev.off()  ## Don't forget to close the PNG device!
 ```
-![Plot 1](~/Documents/GitHub/ExDxAnalysis/plot1.png)   
+![Plot 1](https://github.com/jdeguia/Exploratory_Data_Analysis/blob/master/plot1.png)   
 
-##Plot 2
+## Plot 2
 ```R
 # Reads in data from file then subsets data for specified dates
 houlseholdpower <- read.table("household_power_consumption.txt",skip=1,sep=";")
@@ -91,9 +91,9 @@ title(main="Global Active Power Vs Time")
 dev.copy(png, file = "plot2.png",width=480, height=480)  
 dev.off()  ## Don't forget to close the PNG device!
 ```
-![Plot 2](~/Documents/GitHub/ExDxAnalysis/plot2.png)
+![Plot 2](https://github.com/jdeguia/Exploratory_Data_Analysis/blob/master/plot2.png)
 
-##Plot 3
+## Plot 3
 ```R
 # Reads in data from file then subsets data for specified dates
 houlseholdpower <- read.table("household_power_consumption.txt",skip=1,sep=";")
@@ -120,9 +120,9 @@ title(main="Energy sub-metering")
 dev.copy(png, file = "plot3.png",width=480, height=480)  
 dev.off()  ## Don't forget to close the PNG device!
 ```
-![Plot 3](~/Documents/GitHub/ExDxAnalysis/plot3.png) 
+![Plot 3](https://github.com/jdeguia/Exploratory_Data_Analysis/blob/master/plot3.png) 
 
-##Plot 4
+## Plot 4
 ```R
 # Reads in data from file then subsets data for specified dates
 houlseholdpower <- read.table("household_power_consumption.txt",skip=1,sep=";")
@@ -154,4 +154,4 @@ with(subpower,{
 dev.copy(png, file = "plot4.png",width=480, height=480)  
 dev.off()  ## Don't forget to close the PNG device!
 ```
-![Plot 4](~/Documents/GitHub/ExDxAnalysis/plot4.png) 
+![Plot 4](https://github.com/jdeguia/Exploratory_Data_Analysis/blob/master/plot4.png) 
